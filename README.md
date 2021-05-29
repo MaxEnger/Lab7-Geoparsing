@@ -8,7 +8,7 @@ The Cities Identified in the Book are plotted like this:
 
 The final Folium Map looks something like this:
 
-![Screenshot of new dataframe](images/wotw_map.png)
+![Screenshot of new dataframe](images/wotw_map.PNG)
 
 ### Coding Challenge Questions
 - Is the gazetteer we're using appropriate for the text? What might be some of the challenges of using Nominatim with a book published in 1859?
