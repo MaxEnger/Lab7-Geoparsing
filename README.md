@@ -3,12 +3,15 @@
 The code generated for this repository was created in Google Colab and focuses on geoparsing. Geoparsing is the process of extracting place-names from text aadn matching the names captured to that of spatial locations using coordinates. The script uses openly available books from the [Gutenberg Project](https://www.gutenberg.org/about/) to develop a geoparsed map that details the locations used in the book. It first takes a text file of the book and takes the cities and adds the appropriate latitude and longitude before adding them to a folium world countries shapefile. The War of the Worlds by H.G Wells was used in this script. This book details the experiences about Aliens returning to Earth to cause havoc. The challenges in creating such a script is ensuring that there are enough locations to observe, it is also helpful to use books that are more worldly, for example, the alien invvasion is the War of the Worlds is a gloabl phenomenon. Having a book centered around local events will limit the distribuition of the final product. 
 
 The Distribution of Cities Identified in the the War of the Worlds are plotted like this:
+
 ![Screenshot of new dataframe](images/wotw_plot.png)
 
 The Color Ramp of Locations Map looks like this:
+
 ![Screenshot of new dataframe](images/wotw_map2.PNG)
 
 The Final Folium Map looks something like this:
+
 ![Screenshot of new dataframe](images/wotw_map.PNG)
 
 ### Coding Challenge Questions
